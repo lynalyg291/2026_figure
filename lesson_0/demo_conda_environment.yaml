@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python==3.12
-ipykernel
+  - ipykernel
   - matplotlib
   - numpy
   - pandas
@@ -12,5 +12,7 @@ ipykernel
   - scipy 
   - polars
   - pyarrow 
-
+  - pip
+  - pip:
+    - flippr
 
