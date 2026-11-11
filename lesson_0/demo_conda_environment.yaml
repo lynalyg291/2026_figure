@@ -15,4 +15,6 @@ dependencies:
   - pip
   - pip:
     - flippr
+  - scikit-learn 
+  - umap-learn
 
